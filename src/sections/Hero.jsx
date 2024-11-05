@@ -1,4 +1,4 @@
-import { PerspectiveCamera } from '@react-three/drei'
+import { PerspectiveCamera, Stars } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import { useMediaQuery } from 'react-responsive'
@@ -62,9 +62,7 @@ const Hero = () => {
       <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
           Hi, I am Johnny <span className='waving-hand'>👋</span>
-          <p className='hero_tag text-gray_gradient'>
-            Building Products & Brands
-          </p>
+          <p className='hero_tag text-gray_gradient'>Full Stack Developer</p>
         </p>
       </div>
       <div className='w-full h-full absolute inset-0'>
@@ -87,6 +85,15 @@ const Hero = () => {
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
+            <Stars
+              radius={100}
+              depth={50}
+              count={5000}
+              factor={6}
+              saturation={1}
+              fade
+              speed={0.1}
+            />
           </Suspense>
         </Canvas>
       </div>

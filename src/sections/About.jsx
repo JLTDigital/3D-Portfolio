@@ -28,8 +28,10 @@ const About = () => {
             <div>
               <p className='grid-headtext'>Hi I'm Johnny</p>
               <p className='grid-subtext'>
-                With 3 years Experience in an agency, I have honed my skills in
-                frontend and backend development
+                With 3 years Experience in an Ecommerce agency, I have honed my
+                skills in frontend and backend development and have a Proven
+                track record of delivering high-quality projects within
+                fast-paced agency environments.
               </p>
             </div>
           </div>
@@ -46,7 +48,8 @@ const About = () => {
               <p className='grid-headtext '>Tech Stack</p>
               <p className='grid-subtext'>
                 I specialise in Javascript with a focus on React / Next JS
-                ecosystems
+                ecosystems. I also have proficiency in PHP, SQL Databases,
+                MongoDB and Express.js,
               </p>
             </div>
           </div>
@@ -77,7 +80,7 @@ const About = () => {
             </div>
             <div>
               <p className='grid-headtext'>
-                I work Remotely across most timezones
+                UK based however I can work remotely
               </p>
               <p className='grid-subtext'>I'm based in Darlington, UK</p>
               <Button name='Contact Me' isBeam containerClass='w-full mt-10' />
@@ -94,11 +97,21 @@ const About = () => {
             />
 
             <div>
-              <p className='grid-headtext'>My Passion for Coding</p>
+              <p className='grid-headtext'>My Passions</p>
               <p className='grid-subtext'>
                 I love solving problems and building things through code.
                 Programming isn&apos;t just my profession—it&apos;s my passion.
                 I enjoy exploring new technologies, and enhancing my skills.
+                <br></br>
+                <br></br>
+                Beyond coding, I’m passionate about the world of technology and
+                constantly seek out opportunities to expand my knowledge. When
+                I’m not developing, I’m likely training for my next race as an
+                avid runner, exploring new languages, or diving into my
+                interests in Soviet history and brutalist architecture. My love
+                for travel not only fuels my curiosity but also inspires
+                creativity in my work, bringing a fresh perspective to every
+                project I tackle.
               </p>
             </div>
           </div>
