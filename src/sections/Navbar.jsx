@@ -19,9 +19,7 @@ const Navbar = () => {
   }
 
   const toggleMenu = () => {
-    setIsOpen((prevIsOpen) => 
-      !prevIsOpen
-    )
+    setIsOpen((prevIsOpen) => !prevIsOpen)
   }
 
   return (
@@ -31,7 +29,7 @@ const Navbar = () => {
           <a
             href='/'
             className='text-neutral-400 font-bold text-xl hover:text-white transition-colors'>
-            Johnny
+            JLTDigital
           </a>
           <button
             onClick={toggleMenu}

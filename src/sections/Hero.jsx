@@ -4,13 +4,13 @@ import { Suspense } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { calculateSizes } from '../constants'
 import HackerRoom from '../components/HackerRoom'
-import Target from '../components/Target'
 import Rings from '../components/Rings'
 import CanvasLoader from '../components/CanvasLoader'
 import ReactLogo from '../components/ReactLogo'
 import Cube from '../components/Cube'
 import HeroCamera from '../components/HeroCamera'
 import Button from '../components/Button'
+import JavascriptLogo from '../components/JavascriptLogo'
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -58,7 +58,7 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
   return (
-    <section className='min-h-screen border-2 border-blue-500 w-full flex flex-col relative'>
+    <section className='min-h-screen border-2 border-[#49FCD4] w-full flex flex-col relative'>
       <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
           Hi, I am Johnny <span className='waving-hand'>👋</span>
@@ -78,7 +78,11 @@ const Hero = () => {
               />
             </HeroCamera>
             <group>
-              <Target position={sizes.targetPosition} />
+              <JavascriptLogo
+                position={sizes.jsPosition}
+                rotation={[0, 2.3, 1]}
+                scale={0.2}
+              />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
               <Rings position={sizes.ringPosition} />
