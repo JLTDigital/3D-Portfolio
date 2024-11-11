@@ -55,13 +55,13 @@ const Contact = () => {
 
   return (
     <section className='c-space my-20'>
-      <div className='relative min-h-screen flex items-center justify-center flex-col'>
-        <img
+      <div className='relative min-h-screen flex items-center justify-center flex-col rounded-lg bg-black-200 border border-black-300'>
+        {/* <img
           src='/assets/terminal.png'
           alt='terminal'
           className='absolute inset-0 min-h-screen'
-        />
-        <div className='contact-container sm:pt-12 pt-4'>
+        /> */}
+        <div className='contact-container sm:pt-2 pt-4'>
           <h3 className='head-text'>Let's Talk</h3>
 
           <p className='text-lg text-white-600 mt-3'>

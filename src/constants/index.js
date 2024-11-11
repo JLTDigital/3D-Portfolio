@@ -249,6 +249,7 @@ export const myProjects = [
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    jsScale: isSmall ? 0.1 : isMobile ? 0.2 : 0.2,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
@@ -283,7 +284,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
       : isMobile
       ? [-9, -10, -10]
       : isTablet
-      ? [-11, -7, -10]
+      ? [-11, -9, -16]
       : [-14, -9, -10]
   }
 }
@@ -291,32 +292,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
+    name: 'Visualsoft',
+    pos: 'Front End Developer',
+    duration: '2020 - Present',
     title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/framer.svg',
+      'Integrating a wide variety of features and functionality into existing websites using the Visualsoft platform. Actively maintaining and improving current features and functionality of the platform as well as providing specialised guidance and support to colleagues within Visualsoft. I work on bespoke projects for clients from agreed specifications ranging from re-designs to changes to core functionality to better suit client needs for their businesses. Use of PHP, MySQL, CSS, HTML, Git, Github, Javascript in day to day working.',
+    icon: '/assets/visualsoft.svg',
     animation: 'victory'
-  },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
-    animation: 'clapping'
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title:
-      'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-    icon: '/assets/notion.svg',
-    animation: 'salute'
   }
+  // {
+  //   id: 2,
+  //   name: 'Figma',
+  //   pos: 'Web Developer',
+  //   duration: '2020 - 2022',
+  //   title:
+  //     'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
+  //   icon: '/assets/figma.svg',
+  //   animation: 'clapping'
+  // },
+  // {
+  //   id: 3,
+  //   name: 'Notion',
+  //   pos: 'Junior Web Developer',
+  //   duration: '2019 - 2020',
+  //   title:
+  //     'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
+  //   icon: '/assets/notion.svg',
+  //   animation: 'salute'
+  // }
 ]

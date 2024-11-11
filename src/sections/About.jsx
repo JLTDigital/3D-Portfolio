@@ -40,9 +40,9 @@ const About = () => {
         <div className='col-span-1 xl:row-span-3'>
           <div className='grid-container'>
             <img
-              src='/assets/grid2.png'
+              src='/assets/grid5.png'
               alt='grid-2'
-              className='w-full sm:w-[276px] h-fit object-contain mx-auto'
+              className='w-full sm:w-[276px] sm:h-[276px] h-fit object-contain mx-auto'
             />
             <div>
               <p className='grid-headtext '>Tech Stack</p>

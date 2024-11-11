@@ -81,7 +81,7 @@ const Hero = () => {
               <JavascriptLogo
                 position={sizes.jsPosition}
                 rotation={[0, 2.3, 1]}
-                scale={0.2}
+                scale={sizes.jsScale}
               />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
