@@ -95,13 +95,13 @@ export const myProjects = [
     ]
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Xora',
+    desc: 'Concept landing page for video editing software-as-a-Service platform that transforms the way videos are edited.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Built as a unique Software-as-a-Service landing page with React and Tailwind CSS.',
+    href: 'https://defi-mocha.vercel.app/',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/xora.svg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -116,29 +116,56 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
+        name: 'Tailwind CSS',
         path: 'assets/tailwindcss.png'
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png'
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png'
       }
     ]
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Blockchain & Defi Resources',
+    desc: 'This project provides information and links to Blockchain, Crypto and DeFi. Users can find out more information and explore the web3 world through Dapps, exchanges and wallets',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'With Blockchain & DeFi Resources, users can experience the current places to go in the space, where they can contribute, work together or even game.',
+    href: 'https://defi-mocha.vercel.app/',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/blockchain.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D'
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg'
+      },
+      {
+        id: 2,
+        name: 'Bootstrap',
+        path: 'assets/bootstrap.svg'
+      },
+      {
+        id: 3,
+        name: 'Mongo DB',
+        path: '/assets/mongodb.svg'
+      },
+      {
+        id: 4,
+        name: 'Node JS',
+        path: '/assets/nodejs.svg'
+      }
+    ]
+  },
+  {
+    title: 'YouFood - Concept',
+    desc: 'A concept website for a fresh food / meal delivery website. This platform was designed to be a modern and stylish website with a clean set up that simplifies the subscription service',
+    subdesc:
+      'Project was built with Vanilla Javascript, HTML5, CSS3 and Bootsrap',
+    href: 'https://optimistic-wilson-edbc0d.netlify.app/',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/youfood.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -150,34 +177,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg'
+        name: 'HTML',
+        path: '/assets/html.svg'
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png'
+        name: 'CSS',
+        path: 'assets/css.svg'
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png'
+        name: 'Javascript',
+        path: '/assets/javascript.svg'
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png'
+        name: 'Bootstrap',
+        path: '/assets/bootstrap.svg'
       }
     ]
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    title: 'Crypto Currency Converter',
+    desc: 'Converter application to convert GBP or USD to a range of Crypto currencies using Coin Geckos API. Allows you to store your holdings using local storage. ',
+    subdesc: 'Project was built with Vanilla Javascript, HTML5, CSS3',
+    href: 'https://focused-ritchie-7e9c2f.netlify.app/',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: '/assets/converter.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -187,60 +213,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg'
+        name: 'HTML5',
+        path: '/assets/html.svg'
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png'
+        name: 'CSS',
+        path: 'assets/css.svg'
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png'
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png'
-      }
-    ]
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D'
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg'
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png'
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png'
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png'
+        name: 'JavascriptScript',
+        path: '/assets/javascript.svg'
       }
     ]
   }
@@ -300,24 +284,4 @@ export const workExperiences = [
     icon: '/assets/visualsoft.svg',
     animation: 'victory'
   }
-  // {
-  //   id: 2,
-  //   name: 'Figma',
-  //   pos: 'Web Developer',
-  //   duration: '2020 - 2022',
-  //   title:
-  //     'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-  //   icon: '/assets/figma.svg',
-  //   animation: 'clapping'
-  // },
-  // {
-  //   id: 3,
-  //   name: 'Notion',
-  //   pos: 'Junior Web Developer',
-  //   duration: '2019 - 2020',
-  //   title:
-  //     'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-  //   icon: '/assets/notion.svg',
-  //   animation: 'salute'
-  // }
 ]
