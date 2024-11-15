@@ -51,7 +51,7 @@ const Projects = () => {
             className='p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg'
             style={currentProject.logoStyle}>
             <img
-              className='w-10 h-10 shadow-sm'
+              className='h-10 shadow-sm'
               src={currentProject.logo}
               alt='logo'
             />

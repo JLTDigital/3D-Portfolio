@@ -96,11 +96,11 @@ export const myProjects = [
   },
   {
     title: 'Xora',
-    desc: 'Concept landing page for video editing software-as-a-Service platform that transforms the way videos are edited.',
+    desc: 'Concept landing page for an AI video editing software-as-a-Service platform that transforms the way videos are edited.',
     subdesc:
       'Built as a unique Software-as-a-Service landing page with React and Tailwind CSS.',
     href: 'https://defi-mocha.vercel.app/',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/xora.mp4',
     logo: '/assets/xora.svg',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -127,7 +127,7 @@ export const myProjects = [
     subdesc:
       'With Blockchain & DeFi Resources, users can experience the current places to go in the space, where they can contribute, work together or even game.',
     href: 'https://defi-mocha.vercel.app/',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/blockchain_defi.mp4',
     logo: '/assets/blockchain.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -164,7 +164,7 @@ export const myProjects = [
     subdesc:
       'Project was built with Vanilla Javascript, HTML5, CSS3 and Bootsrap',
     href: 'https://optimistic-wilson-edbc0d.netlify.app/',
-    texture: '/textures/project/project3.mp4',
+    texture: '/textures/project/youfood.mp4',
     logo: '/assets/youfood.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
