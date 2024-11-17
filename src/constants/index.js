@@ -99,7 +99,7 @@ export const myProjects = [
     desc: 'Concept landing page for an AI video editing software-as-a-Service platform that transforms the way videos are edited.',
     subdesc:
       'Built as a unique Software-as-a-Service landing page with React and Tailwind CSS.',
-    href: 'https://defi-mocha.vercel.app/',
+    href: 'https://silver-figolla-cd6c00.netlify.app/',
     texture: '/textures/project/xora.mp4',
     logo: '/assets/xora.svg',
     logoStyle: {
@@ -200,9 +200,9 @@ export const myProjects = [
   {
     title: 'Crypto Currency Converter',
     desc: 'Converter application to convert GBP or USD to a range of Crypto currencies using Coin Geckos API. Allows you to store your holdings using local storage. ',
-    subdesc: 'Project was built with Vanilla Javascript, HTML5, CSS3',
-    href: 'https://focused-ritchie-7e9c2f.netlify.app/',
-    texture: '/textures/project/project4.mp4',
+    subdesc: 'Project was built with React and Tailwind',
+    href: 'https://deluxe-klepon-e1f343.netlify.app/',
+    texture: '/textures/project/currency_converter.mp4',
     logo: '/assets/converter.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -213,18 +213,13 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'HTML5',
-        path: '/assets/html.svg'
+        name: 'React.js',
+        path: '/assets/react.svg'
       },
       {
         id: 2,
-        name: 'CSS',
-        path: 'assets/css.svg'
-      },
-      {
-        id: 3,
-        name: 'JavascriptScript',
-        path: '/assets/javascript.svg'
+        name: 'Tailwind CSS',
+        path: 'assets/tailwindcss.png'
       }
     ]
   }
@@ -233,8 +228,10 @@ export const myProjects = [
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    webScale: isSmall ? 0.05 : isMobile ? 0.06 : 1,
     jsScale: isSmall ? 0.1 : isMobile ? 0.2 : 0.2,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    webPosition: isMobile ? [0.5, -4.5, 0] : [-2, -3.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
       : isMobile

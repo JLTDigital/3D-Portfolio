@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { calculateSizes } from '../constants'
-import HackerRoom from '../components/HackerRoom'
+// import HackerRoom from '../components/HackerRoom'
 import Rings from '../components/Rings'
 import CanvasLoader from '../components/CanvasLoader'
 import ReactLogo from '../components/ReactLogo'
@@ -11,6 +11,7 @@ import Cube from '../components/Cube'
 import HeroCamera from '../components/HeroCamera'
 import Button from '../components/Button'
 import JavascriptLogo from '../components/JavascriptLogo'
+import WebDevelopment from '../components/WebDevelopment'
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -58,7 +59,7 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
   return (
-    <section className='min-h-screen border-2 border-[#49FCD4] w-full flex flex-col relative'>
+    <section className='min-h-screen border-2 border-[#ff2a6d] w-full flex flex-col relative'>
       <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans'>
           Hi, I am Johnny <span className='waving-hand'>👋</span>
@@ -71,10 +72,10 @@ const Hero = () => {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
             <HeroCamera isMobile={isMobile}>
-              <HackerRoom
-                position={sizes.deskPosition}
-                rotation={[0, -Math.PI, 0]}
-                scale={sizes.deskScale}
+              <WebDevelopment
+                position={sizes.webPosition}
+                rotation={[0.2, 5, 0]}
+                scale={sizes.webScale}
               />
             </HeroCamera>
             <group>
