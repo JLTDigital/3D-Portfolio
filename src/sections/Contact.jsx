@@ -61,7 +61,7 @@ const Contact = () => {
           alt='terminal'
           className='absolute inset-0 min-h-screen'
         /> */}
-        <div className='contact-container sm:pt-2 pt-4'>
+        <div className='contact-container sm:pt-2 pt-4 pb-4'>
           <h3 className='head-text'>Let's Talk</h3>
 
           <p className='text-lg text-white-600 mt-3'>
