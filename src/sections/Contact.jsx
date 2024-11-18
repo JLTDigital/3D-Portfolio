@@ -54,7 +54,7 @@ const Contact = () => {
   }
 
   return (
-    <section className='c-space my-20'>
+    <section id='contact' className='c-space my-20'>
       <div className='relative min-h-screen flex items-center justify-center flex-col rounded-lg bg-black-200 border border-black-300'>
         {/* <img
           src='/assets/terminal.png'

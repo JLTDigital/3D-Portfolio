@@ -83,7 +83,11 @@ const About = () => {
                 UK based however I can work remotely
               </p>
               <p className='grid-subtext'>I'm based in Darlington, UK</p>
-              <Button name='Contact Me' isBeam containerClass='w-full mt-10' />
+              <a
+                className='flex items-center gap-2 cursor-pointer text-white-600'
+                href='#contact'>
+                <Button name='Contact' isBeam containerClass='w-full mt-10' />
+              </a>
             </div>
           </div>
         </div>
