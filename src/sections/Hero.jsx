@@ -4,7 +4,6 @@ import { Suspense } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { calculateSizes } from '../constants'
 // import HackerRoom from '../components/HackerRoom'
-import Rings from '../components/Rings'
 import CanvasLoader from '../components/CanvasLoader'
 import ReactLogo from '../components/ReactLogo'
 import Cube from '../components/Cube'
@@ -12,6 +11,7 @@ import HeroCamera from '../components/HeroCamera'
 import Button from '../components/Button'
 import JavascriptLogo from '../components/JavascriptLogo'
 import WebDevelopment from '../components/WebDevelopment'
+import Moon from '../components/Moon'
 
 const Hero = () => {
   // const x = useControls('HackerRoom', {
@@ -86,7 +86,7 @@ const Hero = () => {
               />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
-              <Rings position={sizes.ringPosition} />
+              <Moon scale={sizes.moonScale} position={sizes.moonPosition} />
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
